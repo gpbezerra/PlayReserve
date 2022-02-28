@@ -1,0 +1,892 @@
+
+/* Resetando css */
+
+body{
+  overflow: hidden;
+}
+.body {
+  background-color: #32516E;
+  margin: 0;
+}
+
+a{
+  color: black;
+  width: 350px;
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+
+}
+
+/* Banner */
+.Header{
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../assets/tennis-4482997_1920\ 1.png") ; 
+  width: 100%;
+  background-size:cover;
+  background-position: 0%;
+}
+
+.Header span{
+  margin: 5%  3%;
+  color: white;
+  font-family: 'Salsa', cursive;
+  font-weight: bold;
+}
+
+.HeaderLogo{
+  width: 80%;
+}
+
+.YellowBorder1{
+  border-radius: 2px;
+  background: rgb(231, 235, 42);
+  padding-left: 100%;
+  padding-bottom: 1%;
+}
+
+/* .FlexUserHome */
+
+.FlexUserHome{
+  display: flex;
+  justify-content: space-between;
+}
+
+.UserIdentifier{
+  justify-content: center;
+  align-items: center;
+  margin: 5% 3%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.UserIdentifier span{
+  margin-left: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 10px;
+}
+
+.Home_calendar{
+  font-family: 'Salsa', cursive;
+  font-size: 200%;
+  margin-top: 3%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Calendar{
+  color: white;
+}
+
+.ActualTime{
+  display: flex;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.ActualTime span{
+  font-size: 200%;
+  color: white;
+  font-family: 'Salsa', cursive;
+}
+
+
+.DoReserve{
+  font-family: 'Salsa', cursive;
+  margin-left: 1%;
+  font-size: 100%;
+  margin-top: 3%;
+  color: white;
+}
+
+
+/* Borda */
+.YellowBorder{
+  border-radius: 2px;
+  background: rgb(231, 235, 42);
+  padding-left: 100%;
+}
+
+/* ContainerMain */
+
+.FlexCourt{
+  display: flex;
+}
+
+
+/* ContainerContent */
+
+.Court h2{
+  font-family: 'Salsa', cursive;
+  font-size: 140%;
+  color: white;
+}
+.Court{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+
+
+.Court img{
+  width: 80%;
+  box-sizing: border-box;
+  filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));
+}
+
+/* ContainerPayment */
+
+.Payment{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 23%;
+  height: 10%;
+  background: #F1F1F0;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));
+}
+
+.Payment img{
+  margin-right: 15%;
+  width: 100%;
+}
+
+.BlackBorder{
+  margin-top: 10%;
+  background: black;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+
+
+.PaymentInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.PaymenResume{
+  background-color: #C4C4C4;
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+
+.PaymentValue{
+  background-color: #C4C4C4;
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ValueLegend{
+  text-decoration: underline ;
+}
+
+.Value{
+  color: #07B863;
+}
+
+
+.PaymenResume h2{
+  margin-left: 3%;
+}
+
+.Taxa p{
+  margin-top: 0%;
+}
+
+
+.Taxa{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.PaymentResumeBorder{
+  align-items: center;
+  width: 100%;
+  text-decoration: underline ;
+}
+
+
+.PaymentInfo button{
+  font-family: 'Salsa', cursive;
+  font-size: 140%;
+  padding: 5%;
+  color: black;
+  border-radius: 5px;
+  background-color: #07B863;
+  margin-top: 5%;
+  margin-bottom: 2%;
+
+}
+
+.PaymentInfo button:hover{
+  background-color: #07EC7E;
+}
+  
+
+
+  
+
+
+
+.PaymentInformation{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.PaymentInformation h2{
+  display: flex;
+  font-family: 'Salsa', cursive;
+  justify-content: center;
+}
+
+
+.PaymentInformation p{
+  font-family: 'Salsa', cursive;
+  color: black;
+  font-weight: bold;
+  font-size: 90%
+}
+.Check{
+  margin-right: 5%;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background-color: #eee;
+}
+
+.Check:hover{
+  margin-right: 5%;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background-color: #eee;
+}
+
+.OptionName{
+  display: flex;
+  width: 100%;
+  margin-left: 4%;
+}
+
+.OptionNameGroup{
+  width: 100%;
+  display: flex;
+}
+
+.OptionNameGroup h2{
+  margin-top: 13%;
+  margin-left: 3%;
+}
+
+
+
+.OptionNameGroupLimit{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.OptionNameGroupLimit p {
+  margin-top: 0%;
+}
+
+
+.OptionName p{
+  display: flex;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+
+.OptionName h2{
+  margin-top: 12%;
+  
+}
+
+.OptionsCheck{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OptionsCheckTeacher{
+  display: flex;
+  margin-left: 4%;
+  align-items: center;
+}
+
+
+.TeacherOption{
+  text-align: center;
+}
+
+
+.OptionsCheckTeacher h2{
+  margin-left: 4%;
+  margin-left: 5%;
+}
+
+.Line{
+  width: 100%;
+  margin-left: 4%;
+  display: flex;
+}
+
+
+ /* ContainerContent */
+
+ .Tabel{
+  margin-top: 6%;
+ }
+
+.HourTable{
+  background: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: black 2px;
+  border-style: solid;
+}
+
+.LineHour{
+  display: flex;
+  width: 100%;
+}
+
+.Card1 p{
+  font-family: 'Salsa', cursive;
+  padding: 5%;
+  background-color: #EE7F19;
+  color: white;
+  border-radius: 4px;
+  
+}
+
+.Card1 button{
+  margin-top: 15%;
+  font-family: 'Salsa', cursive;
+  font-size: 130%;
+ color: black;
+  border-radius: 4px;
+  background-color: #07B863;
+
+}
+
+.Card1 h2{
+
+  color: black;
+}
+
+.Card1{
+  font-size: 120%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  background-color: F1F1F0;
+  border: black 2px;
+  border-style: solid;
+  border-left: none;
+  border-top:none ;
+  border-width: 2px;
+}
+
+
+
+
+.Card p{
+  font-family: 'Salsa', cursive;
+  padding: 5%;
+  background-color: #EE7F19;
+  color: white;
+  border-radius: 4px;
+  
+}
+
+.Card button{
+  margin-top: 15%;
+  font-family: 'Salsa', cursive;
+  font-size: 130%;
+ color: black;
+  border-radius: 5px;
+  padding: 3% 8%;
+  background-color: #07B863;
+  cursor: pointer;
+
+}
+
+.Card button:hover{
+
+  background-color: #07EC7E;
+
+}
+
+.Card h2{
+
+  color: black;
+}
+
+.Card{
+  font-size: 120%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  background-color: F1F1F0;
+  border: black 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-left: none;
+  border-top:none ;
+}
+
+.StatusCard h2{
+  color: black;
+}
+
+
+.StatusCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 10%;
+  border: black 2px;
+  border-style: solid;
+  border-right: none;
+  border-top:none ;
+  border-width: 2px;
+}
+
+
+
+.Footer{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #E7EB2A;
+}
+
+
+.footerLogo{
+  width: 300px;
+}
+
+
+.footerAdress{
+
+  align-items: centers;
+}
+
+.FooterRacket{
+
+
+  width: 50px;
+  height: 50px;
+}
+
+.AdressItens{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.FooterAdressTop{
+
+  display: flex;
+  padding-left: 8%;
+
+}
+
+.FooterSocial{
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.FooterSocial span{
+
+  margin-top: 10px;
+
+}
+
+.FooterSocialImgs{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.FooterSocialSpan{
+
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterSocialSpan span {
+
+  margin-top: 18px;
+
+}
+
+.FooterSocial img{
+
+  width: 30px;
+  margin-top: 8px;
+
+}
+
+
+
+
+
+
+/* Hover */
+
+
+body{
+
+  font-family: 'Salsa', cursive;
+
+}
+
+
+
+.HoverCard{
+
+  width: 500px;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  border-radius: 11px;
+ filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));;
+ z-index: 100;
+}
+
+.HoverCard button {
+
+  margin-left: 30%;
+  margin-bottom: 7%;
+
+
+}
+
+.HoverSearch{
+
+  display: flex;
+  margin: 10px;
+
+}
+
+.HoverSearch input::placeholder{
+  font-family: 'Salsa', cursive;
+  font-size: 140%;
+  padding: 3%;
+  color: black;
+}
+
+.HoverSearch input{
+  height: 40px;
+  border-radius: 8px;
+  border-color: black;
+  margin-left: 10px;
+  width: 80%;
+  outline: none;
+
+}
+
+.HoverSelected{
+  margin-top: 40px;
+  display: flex;
+  margin-left: 10px;
+
+}
+
+.HoverSelected span{
+  
+  margin-left: 10px;
+
+}
+
+
+
+button{
+  font-family: 'Salsa', cursive;
+  font-size: 140%;
+  padding: 3%;
+  color: black;
+  border-radius: 5px;
+  background-color: #07B863;
+  margin-top: 7%;
+}
+
+button:hover{
+  background-color: #07EC7E;
+}
+
+.HoverDescont{
+  display: flex;
+    width: 100%;
+    align-self: left;
+    text-align: left;
+    align-items: left;
+    margin-bottom: 2%;
+    justify-content: flex-end;
+    margin-right: 3%;
+
+}
+
+.HoverCard{
+  background-color: white;
+ 
+}
+
+.HoverCardContainerGroup{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.HoverCardContainer{
+ 
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* Parte de pagamento */
+
+
+
+.qrcode{
+  width: 30%;
+}
+
+.HoverCardContainerPayment{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.HoverCardPayment{
+
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 11px;
+  filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));;
+  z-index: 100;
+}
+
+.HoverCardPaymentTitle{
+  display: flex;
+}
+
+
+.HoverCardPayment button {
+
+  margin-left: 30%;
+  margin-bottom: 7%;
+}
+
+.ChoosePayment{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.Pix{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  border:solid black;
+  border-radius: 8px;
+  filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));;
+}
+
+.Pix img{
+  width: 25%;
+}
+
+.CreditCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  background-color: #C4C4C4;
+  border:solid black;
+  margin-left: 5%;
+  border-radius: 8px;
+  filter: drop-shadow(5px 10px 30px rgba(0, 0, 0, 0.25));;
+}
+
+
+
+.CreditCard img{
+  width: 25%;
+}
+
+.ConfirmedPayment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ConfirmedPayment button{
+  width: 110%;
+  padding: 3%;
+  margin-top: 10%;
+}
+
+/* CreditCard */
+
+.ContainerVisaMaster{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+}
+
+.Visa{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Visa img{
+  width: 40%;
+  
+}
+
+.MasterCard{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.MasterCard img{
+  width: 40%;
+}
+
+.NameData{
+  width: 100%;
+  margin-top: 3%;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.Name{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Name input{
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  height: 25px;
+  width: 120%;
+  border: none;
+}
+
+
+.Data{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Data input{
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  height: 25px;
+  width: 120%;
+  border: none;
+}
+
+.creditcardbutton{
+  display: flex;
+  justify-content: space-evenly;
+   margin: 0%;
+   padding: 0%;
+}
+
+.close{
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+
+.close a{
+  display: flex;
+  margin: 0%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 3%;
+  margin-top: 1%;
+  padding: 0%;
+}
